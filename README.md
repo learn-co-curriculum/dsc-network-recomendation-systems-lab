@@ -12,25 +12,12 @@ You will be able to:
 
 ## Load the Dataset
 
-To start, load the dataset stored in the file `'books_data.edgelist'`.
-
 
 ```python
 #Your code here
 ```
 
 ## Load the MetaData
-
-Next, load the metadata associated with each of the books being reviewed. The metadata is stored in the file `'books_meta.txt'`.
-
-
-```python
-#Your code here
-```
-
-## Create an Item Matrix
-
-This is essentially the same as the user based matrix you saw constructed in the previous lesson, but for items versus other items. From this, you'll then select the most similar items in order to produce a recommendation suitable for the bottom of a product page.
 
 
 ```python
@@ -48,7 +35,7 @@ Select a small subset of books that you are interested in generating recommendat
 
 ## Generate Recommendations for a Few Books of Choice
 
-Now that you have the preprocessed and transformed the data, it's time to employ collaborative filtering to generate recommendations! Be sure to print the book name that you are generating recommendations for as well as the name of the books being recommended.
+The 'books_data.edgelist' has conveniently already calculated the distance between items for you. Given this preprocessed and data, it's time to employ collaborative filtering to generate recommendations! Generate the top 10 recommendations for each book in the subset you chose. Be sure to print the book name that you are generating recommendations for as well as the name of the books being recommended.
 
 
 ```python
